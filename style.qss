@@ -1,0 +1,70 @@
+/* Main Window */
+QMainWindow {
+    background-color: #f5f6f7;
+}
+
+/* ToolBar Styling */
+QToolBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdcdc;
+    spacing: 10px;
+    padding: 5px;
+}
+
+/* Styling untuk tombol di Toolbar */
+QToolButton {
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #000000;
+    font-size: 13px;
+}
+
+QToolButton:hover {
+    background-color: #f0f0f0;
+    border: 1px solid #a0a0a0;
+}
+
+QToolButton:pressed {
+    background-color: #e5e5e5;
+}
+
+/* Separator di Toolbar */
+QToolBar::separator {
+    width: 1px;
+    background-color: #dcdcdc;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Text Area */
+QTextEdit {
+    background-color: #ffffff;
+    border: none;
+    font-size: 11pt;
+    padding: 10px;
+    selection-background-color: #aaddff;
+    selection-color: #000000;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #f0f0f0;
+    border-top: 1px solid #dcdcdc;
+    color: #444444;
+}
+
+QStatusBar QLabel {
+    padding: 0 10px;
+}
+
+/* Menu Bar */
+QMenuBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+QMenuBar::item:selected {
+    background-color: #e8e8e8;
+}
