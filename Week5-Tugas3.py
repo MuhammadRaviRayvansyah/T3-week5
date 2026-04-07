@@ -1,6 +1,6 @@
-Nama: Muhammad Ravi Rayvansyah
-NIM: F1D02410078
-Kelas: C
+# Nama: Muhammad Ravi Rayvansyah
+# NIM: F1D02410078
+# Kelas: Pemrograman Visual C
 
 import sys
 import os
