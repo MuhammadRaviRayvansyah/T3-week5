@@ -1,3 +1,7 @@
+Nama: Muhammad Ravi Rayvansyah
+NIM: F1D02410078
+Kelas: C
+
 import sys
 import os
 from PySide6.QtWidgets import (QApplication, QMainWindow, QTextEdit, QFileDialog, QFontDialog, 
